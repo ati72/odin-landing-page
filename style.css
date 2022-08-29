@@ -58,7 +58,7 @@ li {
     font-weight: 900;
 }
 
-p {
+.main-left p {
     font-size: 18px;
 }
 
@@ -82,6 +82,8 @@ img {
     font-size: 36px;
     font-weight: 900;
     text-align: center;
+    padding: 45px;
+    color: #1f2937
 }
 
 .information {
@@ -90,4 +92,81 @@ img {
     padding-right: 300px;
     gap: 30px;
     text-align: center;
+    height: 50vh;
+}
+
+.img-box {
+    border: 2px solid #3882f6;
+    border-radius: 10px;
+    width: 25vh;
+    height: 25vh;
+    object-fit: cover;
+}
+
+.img-box img {
+    object-fit: cover;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    height: 65vh;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-style: italic;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+.sign-up {
+    height: 50vh;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    color: #f9faf8;
+}
+
+.sign-up-sign {
+    background-color: #3882f6;
+    padding-left: 150px;
+    padding-right: 150px;
+    display: flex;
+    width: 700px;
+    height: 150px;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.sign-left {
+    justify-content: flex-start;
+}
+
+.sign-left h1 {
+    margin-bottom: 0;
+}
+
+.sign-left p {
+    margin-top: 2px;
+}
+
+.sign-right {
+    margin-left: auto;
+}
+
+.sign-right button {
+    border: 2px solid #f9faf8;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
