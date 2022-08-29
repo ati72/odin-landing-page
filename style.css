@@ -10,7 +10,7 @@ nav,
 .main
 {
     display: flex;
-    padding-left: 135px;
+    padding-left: 200px;
     padding-right: 200px;
     align-items: center;
     background-color: #1f2937;
@@ -44,3 +44,36 @@ li {
     margin-left: auto;
 }
 
+.main {
+    gap: 100px;
+    height: 70vh;
+}
+
+.main >* {
+    flex: 1;
+}
+
+.hero {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+p {
+    font-size: 18px;
+}
+
+button {
+    font-family:"Roboto", serif;
+    font-weight: 900;
+    font-size: 18px;
+    color: #f9faf8;
+    padding: 10px 35px ;
+    background-color: #3882f6 ;
+    border-radius: 10px;
+    border: 0;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
