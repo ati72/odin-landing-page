@@ -118,6 +118,7 @@ img {
     font-style: italic;
     padding-left: 250px;
     padding-right: 250px;
+    color: #1f2937;
 }
 
 .sign-up {
@@ -169,4 +170,17 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.quote-author {
+    margin-left: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 24px;
+    padding-right: 72px;
+}
+
+.information-text {
+    color: #1f2937;
+    padding-top: 10px;
 }
